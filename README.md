@@ -2,7 +2,7 @@
 
 A comprehensive RESTful API for personal finance management built with Node.js and Express, featuring transaction management, budget planning, financial analytics, and AI-powered insights.
 
-## 🚀 Features
+##  Features
 
 ### Core Features
 
@@ -25,9 +25,9 @@ A comprehensive RESTful API for personal finance management built with Node.js a
 - **Error Handling**: Global error handling with detailed error responses
 - **Request Logging**: Detailed logging for monitoring and debugging
 
-## 📋 Requirements Fulfilled
+##  Requirements Fulfilled
 
-### 1. Fundamentals & Setup ✅
+### 1. Fundamentals & Setup 
 
 - [x] Project initialized with npm init
 - [x] MVC architecture folder structure
@@ -40,13 +40,13 @@ A comprehensive RESTful API for personal finance management built with Node.js a
 - [x] **Budget Management**: Create, update, analyze budgets
 - [x] **Summary Endpoint**: Income-expense summary with analytics
 
-### 3. Async Programming & Middleware ✅
+### 3. Async Programming & Middleware 
 
 - [x] **Async/Await**: Used throughout for file I/O operations
 - [x] **Global Error Handling**: Comprehensive error middleware
 - [x] **Custom Middleware**: Request logging, validation, authentication
 
-### 4. Advanced Node Concepts ✅
+### 4. Advanced Node Concepts 
 
 - [x] **Modular Routes & Controllers**: Clean separation of concerns
 - [x] **Reusable Services**: File service, cache service, sample data service
@@ -56,33 +56,33 @@ A comprehensive RESTful API for personal finance management built with Node.js a
 - [x] **Test Cases**: Comprehensive test suite with Jest and Supertest
 - [x] **JWT Authentication**: Mock user sessions with JWT tokens
 
-### 5. Bonus Features ✅
+### 5. Bonus Features 
 
-#### A. Analytics & Reporting ✅
+#### A. Analytics & Reporting 
 
 - [x] Calculate total income, expenses, and balance
 - [x] Filter transactions by category/date
 - [x] Show monthly trends and financial health metrics
 
-#### B. AI/Automation Features ✅
+#### B. AI/Automation Features 
 
 - [x] Auto-categorize expenses using keyword matching
 - [x] Suggest saving tips and budgets based on past spending
 - [x] Smart budget recommendations with AI insights
 
-#### C. Data Persistence ✅
+#### C. Data Persistence 
 
 - [x] JSON file-based storage with async file operations
 - [x] Structured data models with validation
 
-#### D. Advanced Middleware ✅
+#### D. Advanced Middleware 
 
 - [x] Rate limiter for API protection
 - [x] CORS implementation for cross-origin requests
 - [x] Request logging and monitoring
 - [x] **In-memory cache service with TTL expiry**
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 personal-finance-api/
@@ -122,7 +122,7 @@ personal-finance-api/
 └── package.json
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -288,7 +288,7 @@ npm run test:watch
 npm run test:coverage
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 ### Development
 
@@ -324,7 +324,7 @@ Authorization: Bearer {token}
 GET /api/utils/cache/stats
 ```
 
-## 🏆 Key Highlights
+##  Key Highlights
 
 ### Performance
 
@@ -375,7 +375,7 @@ GET /api/utils/cache/stats
 | GET    | `/api/summary`           | Get financial summary  | Yes  |
 | GET    | `/api/summary/analytics` | Get analytics          | Yes  |
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -383,11 +383,11 @@ GET /api/utils/cache/stats
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Built with Node.js and Express
 - Authentication powered by JWT
