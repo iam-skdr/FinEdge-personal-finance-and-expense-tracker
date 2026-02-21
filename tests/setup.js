@@ -18,12 +18,12 @@ afterAll(async () => {
   // Clear cache to cleanup any timers
   const cacheService = require("../src/services/cacheService");
   cacheService.clear();
-  
+
   // Clean up test data directory
   if (fs.existsSync(process.env.DATA_PATH)) {
     fs.rmSync(process.env.DATA_PATH, { recursive: true, force: true });
   }
-  
+
   // Give a small delay to let any pending operations finish
-  await new Promise(resolve => setTimeout(resolve, 100));
+  await new Promise((resolve) => setTimeout(resolve, 100));
 });

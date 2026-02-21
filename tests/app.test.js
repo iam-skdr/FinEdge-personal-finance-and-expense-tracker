@@ -7,7 +7,7 @@ const cacheService = require("../src/services/cacheService");
 afterAll(async () => {
   // Clear cache to cleanup timers
   cacheService.clear();
-  
+
   // Clean up any remaining test files
   try {
     await fileService.writeFile("users", []);
@@ -16,9 +16,9 @@ afterAll(async () => {
   } catch (error) {
     // Ignore cleanup errors
   }
-  
+
   // Give a moment for any async operations to complete
-  await new Promise(resolve => setTimeout(resolve, 100));
+  await new Promise((resolve) => setTimeout(resolve, 100));
 });
 
 describe("Health Routes", () => {
